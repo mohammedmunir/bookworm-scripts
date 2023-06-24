@@ -64,16 +64,16 @@ sudo apt install -y fonts-recommended fonts-ubuntu fonts-font-awesome fonts-term
 
 # EXA installation
 # replace ls command in .bashrc file with line below
-# alias ls='exa -al --long --header --color=always --group-directories-first' 
+alias ls='exa -al --long --header --color=always --group-directories-first' 
 sudo apt install -y exa
 
 
 # Printing and bluetooth (if needed)
 # sudo apt install -y cups system-config-printer simple-scan
-# sudo apt install -y bluez blueman
+sudo apt install -y bluez blueman
 
-# sudo systemctl enable cups
-# sudo systemctl enable bluetooth
+sudo systemctl enable cups
+sudo systemctl enable bluetooth
 
 # Packages needed for window manager installation
 sudo apt install -y picom rofi dunst libnotify-bin unzip 
