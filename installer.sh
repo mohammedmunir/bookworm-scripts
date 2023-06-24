@@ -14,14 +14,14 @@ sudo apt install -y build-essential
 xdg-user-dirs-update
 
 # PICK YOUR Window Managers (Uncomment if you want these installed)
-# bash ~/bookworm-scripts/resources/bspwm-commands
-# bash ~/bookworm-scripts/resources/dk-commands
-# bash ~/bookworm-scripts/resources/dwm-commands
-# bash ~/bookworm-scripts/resources/qtile-commands
-# bash ~/bookworm-scripts/resources/i3-commands
+bash ~/bookworm-scripts/resources/bspwm-commands
+bash ~/bookworm-scripts/resources/dk-commands
+bash ~/bookworm-scripts/resources/dwm-commands
+bash ~/bookworm-scripts/resources/qtile-commands
+bash ~/bookworm-scripts/resources/i3-commands
 
 # XFCE4 Minimal
-# sudo apt install -y xfce4 xfce4-goodies
+ sudo apt install -y xfce4 xfce4-goodies
 
 
 # Network File Tools/System Events
@@ -55,8 +55,8 @@ sudo apt install -y lxappearance
 sudo apt install -y firefox-esr 
 
 # Desktop background browser/handler 
-# feh --bg-fill /path/to/directory 
-# sudo apt install -y nitrogen 
+feh --bg-fill /path/to/directory 
+sudo apt install -y nitrogen 
 sudo apt install -y feh
  
 # Fonts and icons for now
