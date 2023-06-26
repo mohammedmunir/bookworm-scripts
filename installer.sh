@@ -64,7 +64,7 @@ sudo apt install -y fonts-recommended fonts-ubuntu fonts-font-awesome fonts-term
 
 # EXA installation
 # replace ls command in .bashrc file with line below
-alias ls='exa -al --long --header --color=always --group-directories-first' 
+-alias ls='exa -al --long --header --color=always --group-directories-first' 
 sudo apt install -y exa
 
 
